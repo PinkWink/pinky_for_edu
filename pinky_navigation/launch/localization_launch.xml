@@ -6,7 +6,7 @@
     <arg name="yaml_filename" default=""/>
     <arg name="map" default=""/>
     <arg name="use_sim_time" default="false"/>
-    <arg name="params_file" default="$(find-pkg-share nav2_bringup)/params/nav2_params.yaml"/>
+    <arg name="params_file" default="$(find-pkg-share pinky_navigation)/params/nav2_params.yaml"/>
     <arg name="autostart" default="true"/>
     <arg name="container_name" default="nav2_container"/>
     <arg name="use_composition" default="True"/>

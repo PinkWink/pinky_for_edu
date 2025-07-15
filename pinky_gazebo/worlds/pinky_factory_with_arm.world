@@ -130,7 +130,7 @@
     </link>
   </model>
 
-  <!-- <model name="robot_arm">
+  <model name="robot_arm">
     <static>true</static>
     <pose>1.7 0 0.11 0 0 0</pose>
     <link name="robot_arm_link">
@@ -151,7 +151,7 @@
         </geometry>
       </collision>
     </link>
-  </model> -->
+  </model>
 
   <model name="wall_front">
     <static>true</static>

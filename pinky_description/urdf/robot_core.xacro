@@ -48,11 +48,11 @@
                 <box size="${chassis_length} ${chassis_width} ${chassis_height}"/>
             </geometry>
         </collision>
-        <xacro:inertial_box mass="${chassis_mass}" x="${chassis_length}" y="${chassis_width}" z="${chassis_height}">
+        <xacro:inertial_box mass="${chassis_mass}" x="${chassis_length}" y="${chassis_width}" 
+                            z="${chassis_height}">
             <origin xyz="-0.01 0 0.01" rpy="0 0 0"/>
         </xacro:inertial_box>
 	</link>
-    
     
     <joint name="caster_fixed_joint" type="fixed">
         <parent link="chassis"/>
@@ -61,7 +61,7 @@
     </joint>
 
 	<link name="caster">
-    <visual>
+        <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
                 <sphere radius="${caster_wheel_radius}"/>

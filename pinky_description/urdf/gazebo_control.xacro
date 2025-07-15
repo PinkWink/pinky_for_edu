@@ -12,6 +12,7 @@
 
             <min_acceleration>-2.0</min_acceleration>
             <max_acceleration>2.0</max_acceleration>  
+            
             <topic>cmd_vel</topic>
             
             <odom_topic>odom</odom_topic>

@@ -11,12 +11,12 @@
     <arg name="use_respawn" default="False"/>
     <arg name="log_level" default="info"/>
     <arg name="lifecycle_nodes" default="['controller_server',
-                       'smoother_server',
-                       'planner_server',
-                       'behavior_server',
-                       'bt_navigator',
-                       'waypoint_follower',
-                       'velocity_smoother']"/>
+                        'smoother_server',
+                        'planner_server',
+                        'behavior_server',
+                        'bt_navigator',
+                        'waypoint_follower',
+                        'velocity_smoother']"/>
     
 
 

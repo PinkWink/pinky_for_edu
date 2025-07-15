@@ -13,12 +13,12 @@
     <arg name="log_level" default="info"/>
     <arg name="lifecycle_nodes_local" default="['map_server', 'amcl']"/>
     <arg name="lifecycle_nodes_nav" default="['controller_server',
-                       'smoother_server',
-                       'planner_server',
-                       'behavior_server',
-                       'bt_navigator',
-                       'waypoint_follower',
-                       'velocity_smoother']"/>
+                        'smoother_server',
+                        'planner_server',
+                        'behavior_server',
+                        'bt_navigator',
+                        'waypoint_follower',
+                        'velocity_smoother']"/>
 
     <group>
         <push-ros-namespace namespace="$(var namespace)"/>
